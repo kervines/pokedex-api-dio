@@ -1,0 +1,30 @@
+Fundamentos do protocolo HTTP
+Requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon/1
+    ${endereço}/${path = caminho de identificação do recurso}
+
+Request Method: GET (buscar) | POST (gravar) | PUT | DELETE
+
+Path Params
+https://pokeapi.co/api/v2/pokemon/?offset=0&limit=20
+
+Query String
+offset=0
+limit=20
+
+Headers
+Response - configuração
+
+Request - configuração
+pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+text/html,
+application/xhtml+xml,
+application/xml;q=0.9,
+image/avif,
+image/webp,
+image/apng,
+*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+
+https://httpstatusdogs.com/
